@@ -1,16 +1,12 @@
-// src/App.js
-import React from 'react';
-import MyTextComponent from './MyTextComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from '/components/Header';
 
 const App = () => {
-  const myText = 'Hello, this is my text from VSCode!';
-
   return (
     <div>
-      <h1>Images Gallery</h1>
-      <MyTextComponent text={App} />
+      <Header title="Images Gallery"/>
     </div>
   );
-};
+}
 
 export default App;
